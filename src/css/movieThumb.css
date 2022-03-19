@@ -1,0 +1,38 @@
+.movie-frame {
+  position: relative;
+  margin-right: 13px;
+}
+
+.movie-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: 0px -15px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 3px 5px 5px #00000033;
+}
+.movie-title {
+  position: absolute;
+  top: 0;
+  color: #ffffff;
+  font-size: 24px;
+  width: 280px;
+  height: 280px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+@media screen and (max-width: 321px) {
+  .movie-img {
+    width: 200px;
+    height: 200px;
+  }
+  .movie-title {
+    font-size: 18px;
+    line-height: 23.44px;
+  }
+}

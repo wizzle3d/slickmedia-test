@@ -1,0 +1,30 @@
+header {
+  width: 100%;
+  min-height: 140px;
+  background-color: #292929;
+  display: flex;
+}
+header .name-btn {
+  width: 193px;
+  margin: auto;
+  height: 60px;
+  border: 1px solid #ffffff;
+  background: none;
+  color: #ffffff;
+}
+@media screen and (max-width: 834px) {
+  header .name-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 321px) {
+  header {
+    min-height: 67px;
+  }
+  header .name-btn {
+    width: 108px;
+    height: 33.58px;
+  }
+}

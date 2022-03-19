@@ -1,0 +1,27 @@
+#showcase {
+  width: 100%;
+}
+section {
+  position: relative;
+  margin-bottom: 64px;
+}
+section h1 {
+  margin: 0;
+  position: absolute;
+  top: 109px;
+  width: 490px;
+  font-size: 72px;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media screen and (max-width: 834px) {
+  section h1 {
+    width: 100%;
+    left: 0;
+    padding: 0 172px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    top: 0;
+  }
+}
